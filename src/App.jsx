@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import { Outlet, useNavigate } from "react-router-dom";
-import SidePanel from "./Pages/SidePanel";
 import { useUser } from "./UserContext";
+import SidePanel from "./Pages/SidePanel";
 
 export default function App() {
   const { user } = useUser()
