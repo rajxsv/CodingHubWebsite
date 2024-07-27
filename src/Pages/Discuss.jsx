@@ -24,13 +24,8 @@ export default function Discuss() {
     const fetchAllPosts = async () => {
         try {
             await axios
-                .get(
-                    API_BASE_URL + "/public/posts?" +
-            "page=" +
-            page +
-            "&pagesize=" +
-            pageSize
-        )
+                .get(API_BASE_URL + "/public/posts?" + "page=" + page + "&pagesize=" + pageSize, {withCredentials: true
+        })
         .
             then((response) => {
                 setPosts(response.data.postsPerPage);
