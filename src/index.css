@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&family=Poppins:ital,wght@0,300;1,200&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+  
+
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.bg-landingimage {
+    background-image: url('../Assets/18220884_v1016-b-09.jpg');
+}
+
+.font-subtitle{
+    letter-spacing: 0.7rem;
+    font-size: medium;
+    margin-bottom: 0;
+}
+
+.font-title {
+    letter-spacing: 3rem;
+    overflow-wrap: break-word;
+}
+
+.border-rainbow {
+    border: 3px solid;
+    border-image: linear-gradient(to right, violet, indigo, blue, green, yellow, orange, red) 1;
+    border-radius: 0.5rem;
+}
