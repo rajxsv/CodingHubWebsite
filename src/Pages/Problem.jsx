@@ -12,6 +12,7 @@ export default function Problems() {
   const [searchParams, setSearchParams] = useSearchParams();
   const problemId = searchParams.get("problemid");
   const [problem, setProblem] = useState({});
+  console.log(problemId)
   const API_BASE_URL = import.meta.env.VITE_API_BASE_URL;
 
   useEffect(() => {

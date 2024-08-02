@@ -190,7 +190,7 @@ export default function NewListProblems() {
                                                 <div className="text-sm text-gray-900">
                                                     <Link
                                                         key={index}
-                                                        to={`/content/problems?problemid=${item.id}`}
+                                                        to={`/content/problems?problemid=${item._id}`}
                                                         state={{id: item.id}}
                                                         className="bg-1 bg-gray-200 p-2 rounded-md hover:bg-gray-400"
                                                     >

@@ -28,11 +28,6 @@ export default function UserPostCard({
         {body}
       </div>
       <div className="flex gap-8 justify-between">
-        <button>
-          <div className="p-2 rounded-lg text-white bg-black hover:bg-gray-900">
-            Read More {"->"}
-          </div>
-        </button>
         <div className="flex justify-end gap-8">
           <div className="flex items-center justify-center gap-2">
             <button>
